@@ -1,0 +1,16 @@
+# include "..\..\cs50.h"
+# include <stdio.h>
+# include <string.h>
+
+
+int main(void){
+    string names[] = {"Bill", "Charlie", "Fred", "George", "Ginny", "Percy", "Ron"}; // define fixed array
+    for (int i = 0; i < 7; i++){
+        if (names[i] == "Ron"){
+            printf("Found\n");
+            return 0;
+        }
+    }
+    printf("Not Found\n");
+    return 1;
+}
