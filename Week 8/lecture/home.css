@@ -1,0 +1,17 @@
+.centered /* creating class of styles */
+{
+    text-align: center;
+}
+header
+{
+    font-size: large;
+}
+main
+{
+    font-size: medium;
+    color: green;
+}
+footer
+{
+    font-size: small;
+}
